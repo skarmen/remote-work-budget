@@ -158,7 +158,8 @@ class Currencies extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="results">
+        <section className="resultsSection">
+          <div className="results">
 					<div className="wrapper">
 						<h2>
 							Your <span className="lineOne">Future</span> Financial Status
@@ -193,6 +194,8 @@ class Currencies extends Component {
 						)}
 					</div>
 				</div>
+        </section>
+
 			</div>
 		)
   }

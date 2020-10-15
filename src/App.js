@@ -151,7 +151,7 @@ class App extends Component {
         </header>
 				<div className="userIncomeSection">
 					<div className="wrapper">
-						<h2 className="lineOne">First,</h2>
+						<div className="step">1</div>
 						<h2>Enter Your Current Monthly Income</h2>
 
 						<div className="incomeLabelInput">
@@ -183,7 +183,7 @@ class App extends Component {
 
 				<section className="target">
 					<div className="wrapper">
-						<h2 className="lineOne">Next,</h2>
+						<div className="step">2</div>
 						<h2>Enter Your Projected Monthly Budget in your New Destination</h2>
 
 						<select onChange={this.handleTargetChange}>
