@@ -159,41 +159,41 @@ class Currencies extends Component {
 					</div>
 				</div>
         <section className="resultsSection">
-          <div className="results">
 					<div className="wrapper">
-						<h2>
-							Your <span className="lineOne">Future</span> Financial Status
-						</h2>
-						<p>
-							You are making: <br />
-							<span className="resultStyle">
-								${new Intl.NumberFormat().format(this.state.convertedIncome)}
-							</span>
-							&nbsp;
-							{this.props.targetCurrencyCode}
-						</p>
+            <div className="results">
+              <h2>
+                Your <span className="lineOne">Future</span> Financial Status
+              </h2>
+              <p>
+                You are making: <br />
+                <span className="resultStyle">
+                  ${new Intl.NumberFormat().format(this.state.convertedIncome)}
+                </span>
+                &nbsp;
+                {this.props.targetCurrencyCode}
+              </p>
 
-						{this.state.surplusShortage > 0 ? (
-							<p>
-								Your surplus is: <br />
-								<span className="resultStyle">
-									${new Intl.NumberFormat().format(this.state.surplusShortage)}
-								</span>
-								&nbsp;
-								{this.props.targetCurrencyCode}
-							</p>
-						) : (
-							<p>
-								Your shortage is: <br />
-								<span className="resultStyle">
-									${new Intl.NumberFormat().format(this.state.surplusShortage)}
-								</span>
-								&nbsp;
-								{this.props.targetCurrencyCode}
-							</p>
-						)}
-					</div>
-				</div>
+              {this.state.surplusShortage > 0 ? (
+                <p>
+                  Your surplus is: <br />
+                  <span className="resultStyle">
+                    ${new Intl.NumberFormat().format(this.state.surplusShortage)}
+                  </span>
+                  &nbsp;
+                  {this.props.targetCurrencyCode}
+                </p>
+              ) : (
+                <p>
+                  Your shortage is: <br />
+                  <span className="resultStyle">
+                    ${new Intl.NumberFormat().format(this.state.surplusShortage)}
+                  </span>
+                  &nbsp;
+                  {this.props.targetCurrencyCode}
+                </p>
+              )}
+					  </div>
+				  </div>
         </section>
 
 			</div>

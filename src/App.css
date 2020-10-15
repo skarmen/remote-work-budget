@@ -36,7 +36,17 @@ h1 {
   color: #f2f2f2;
   line-height: 2.4;
   letter-spacing: 0.2rem;
+}
 
+h2 {
+  margin: 0 0 15px;
+  font-size: calc(1.8rem + 0.6vw);
+  line-height: 1.6;
+}
+
+p {
+  line-height: 1.2;
+  font-size: calc(1.4rem + 0.6vw)
 }
 
 a {
@@ -100,11 +110,11 @@ header {
 }
 
 
-
 select {
   margin: 10px;
   padding: 5px;
   font-size: calc(1rem + 0.5vw);
+  max-width: 150px;
 }
 
 select:focus,
@@ -132,17 +142,15 @@ label {
   align-items: center;
 }
 
-h2 {
-  margin: 0 0 15px;
-  font-size: calc(1.8rem + 0.5rem);
-}
-
-.target {
-  margin: 50px auto;
+.income {
+  max-width: 100px;
 }
 
 
 /* ======== User Expenses Section ======== */
+.target {
+  margin: 50px auto;
+}
 
 .expenses {
   display: flex;
@@ -152,15 +160,6 @@ h2 {
   padding: 20px;
   border-bottom: 1px solid #6d7e88;;
   border-top: 1px solid #6d7e88;
-}
-
-.results {
-  padding: 10px 0;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .expense,
@@ -183,11 +182,11 @@ h2 {
 
 .totalExpenses button {
   font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
+  font-size: 1.4rem;
   color: #fff;
-  background-color: #006efb;
+  background: #006af1;
   border: none;
   padding: 10px;
-  background: #006af1;
   transition: 0.4s all;
 }
 
@@ -205,7 +204,7 @@ label {
 }
 
 input {
-  border: 0.5px black solid;
+  border: 0.5px solid #222;
   border-radius: 2px;
   padding: 2px 5px;
   margin: 3px 0
@@ -224,14 +223,24 @@ input:hover {
 }
 
 .results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 100px;
   text-align: center;
   font-size: calc(1.5rem + 0.5vw);
 }
 
+
 .results p {
-  border: 1px black solid;
+  border: 1px solid #222;
   padding: 10px 15px;
+  width: 200px;
+}
+
+.results h2 {
+  width: 300px;
 }
 
 .resultStyle {
@@ -300,22 +309,31 @@ footer a {
 /* ======== Media Queries ======== */
 /* Landscape phone to portrait tablet */
 @media (max-width: 900px) {
-  .expense {
+  /* .expense {
     width: 70%;
-  }
+  } */
 }
 
 /* Landscape phones and down */
 @media (max-width: 650px) {
-  .expense {
+  /* .expense {
     width: 95%;
   }
   select {
     width: 90%;
-  }
+  } */
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
+
+  .totalExpenses {
+    flex-wrap: wrap;
+    justify-content: center!important;
+  }
+
+  .totalExpenses p {
+    display: flex;
+  }
 
   .expense {
     flex-direction: column;
