@@ -138,10 +138,17 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<div className="burgundy"></div>
-				<div className="orange"></div>
-
-				<h1>Remote Work Budget</h1>
+        <header>
+          <div className="wrapper">
+            <div class="headerContent">
+              <h1><span>Remote</span> Work <span>Budget</span></h1>
+              <h2>Looking to work remotely?</h2>
+              <h2>
+                Use our budget calculator to check what would be your cost of living in different countries.
+              </h2>
+            </div>
+          </div>
+        </header>
 				<div className="userIncomeSection">
 					<div className="wrapper">
 						<h2 className="lineOne">First,</h2>
