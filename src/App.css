@@ -32,9 +32,9 @@ body {
 }
 
 h1 {
-  font-size: calc(3.4rem + 2.8vw);
+  font-size: calc(2.4rem + 2.4vw);
   color: #f2f2f2;
-  line-height: 2.4;
+  line-height: 1.8;
   letter-spacing: 0.2rem;
 }
 
@@ -55,7 +55,6 @@ a {
 
 .App {
   text-align: center;
-  padding-top: 20px;
   height: 100%;
 }
 
@@ -74,10 +73,11 @@ header {
 }
 
 .headerContent h2 {
-  font-size: calc((1.8rem + 0.8vw));
+  font-size: calc((1.6rem + 0.8vw));
   line-height: 2;
   letter-spacing: 0.02rem;
 }
+
 .headerContent span {
   color: #006efb;
 }
@@ -88,7 +88,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  padding: 100px 50px;
+  max-width: 700px;
 }
 
 
@@ -307,25 +308,7 @@ footer a {
 
 
 /* ======== Media Queries ======== */
-/* Landscape phone to portrait tablet */
-@media (max-width: 900px) {
-  /* .expense {
-    width: 70%;
-  } */
-}
-
-/* Landscape phones and down */
-@media (max-width: 650px) {
-  /* .expense {
-    width: 95%;
-  }
-  select {
-    width: 90%;
-  } */
-}
-
 @media (max-width: 480px) {
-
   .totalExpenses {
     flex-wrap: wrap;
     justify-content: center!important;
