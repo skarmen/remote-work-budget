@@ -94,8 +94,8 @@ class Currencies extends Component {
   render() {
     return (
 			<div>
-				<div className="expenses">
-					<div className="wrapper">
+				<div className="wrapper">
+				  <div className="expenses">
 						<div className="expense">
 							<label htmlFor="">Housing</label>
 							<input
