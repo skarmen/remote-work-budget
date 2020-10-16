@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/remote-work-budget/static/css/main.de300530.chunk.css",
-    "main.js": "/remote-work-budget/static/js/main.282e4b93.chunk.js",
-    "main.js.map": "/remote-work-budget/static/js/main.282e4b93.chunk.js.map",
-    "runtime-main.js": "/remote-work-budget/static/js/runtime-main.ee8cae69.js",
-    "runtime-main.js.map": "/remote-work-budget/static/js/runtime-main.ee8cae69.js.map",
-    "static/css/2.2ce0d9b2.chunk.css": "/remote-work-budget/static/css/2.2ce0d9b2.chunk.css",
-    "static/js/2.fd434a3b.chunk.js": "/remote-work-budget/static/js/2.fd434a3b.chunk.js",
-    "static/js/2.fd434a3b.chunk.js.map": "/remote-work-budget/static/js/2.fd434a3b.chunk.js.map",
-    "index.html": "/remote-work-budget/index.html",
-    "precache-manifest.65d62864ef9e2037028e7a6fedf46536.js": "/remote-work-budget/precache-manifest.65d62864ef9e2037028e7a6fedf46536.js",
-    "service-worker.js": "/remote-work-budget/service-worker.js",
-    "static/css/2.2ce0d9b2.chunk.css.map": "/remote-work-budget/static/css/2.2ce0d9b2.chunk.css.map",
-    "static/css/main.de300530.chunk.css.map": "/remote-work-budget/static/css/main.de300530.chunk.css.map",
-    "static/js/2.fd434a3b.chunk.js.LICENSE.txt": "/remote-work-budget/static/js/2.fd434a3b.chunk.js.LICENSE.txt"
+    "main.css": "/ProjectSix/static/css/main.de300530.chunk.css",
+    "main.js": "/ProjectSix/static/js/main.69d7c9be.chunk.js",
+    "main.js.map": "/ProjectSix/static/js/main.69d7c9be.chunk.js.map",
+    "runtime-main.js": "/ProjectSix/static/js/runtime-main.a7f7ecca.js",
+    "runtime-main.js.map": "/ProjectSix/static/js/runtime-main.a7f7ecca.js.map",
+    "static/css/2.2ce0d9b2.chunk.css": "/ProjectSix/static/css/2.2ce0d9b2.chunk.css",
+    "static/js/2.fd434a3b.chunk.js": "/ProjectSix/static/js/2.fd434a3b.chunk.js",
+    "static/js/2.fd434a3b.chunk.js.map": "/ProjectSix/static/js/2.fd434a3b.chunk.js.map",
+    "index.html": "/ProjectSix/index.html",
+    "precache-manifest.dd7deb19ae591034daaa40a5f793cdfa.js": "/ProjectSix/precache-manifest.dd7deb19ae591034daaa40a5f793cdfa.js",
+    "service-worker.js": "/ProjectSix/service-worker.js",
+    "static/css/2.2ce0d9b2.chunk.css.map": "/ProjectSix/static/css/2.2ce0d9b2.chunk.css.map",
+    "static/css/main.de300530.chunk.css.map": "/ProjectSix/static/css/main.de300530.chunk.css.map",
+    "static/js/2.fd434a3b.chunk.js.LICENSE.txt": "/ProjectSix/static/js/2.fd434a3b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee8cae69.js",
+    "static/js/runtime-main.a7f7ecca.js",
     "static/css/2.2ce0d9b2.chunk.css",
     "static/js/2.fd434a3b.chunk.js",
     "static/css/main.de300530.chunk.css",
-    "static/js/main.282e4b93.chunk.js"
+    "static/js/main.69d7c9be.chunk.js"
   ]
 }
