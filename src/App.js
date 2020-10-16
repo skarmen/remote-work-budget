@@ -143,7 +143,7 @@ class App extends Component {
         <header>
           <div className="wrapper">
             <div class="headerContent">
-              <h1><span>Remote</span> Work <span>Budget</span></h1>
+              <h1><span>Remote </span> Work <span> Budget</span></h1>
               <h2>Looking to work remotely?</h2>
               <h2>
                 Use our budget calculator to check what would be your cost of living in different countries.
