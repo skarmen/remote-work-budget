@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/remote-work-budget/static/css/main.24970d95.chunk.css",
-    "main.js": "/remote-work-budget/static/js/main.31d0f509.chunk.js",
-    "main.js.map": "/remote-work-budget/static/js/main.31d0f509.chunk.js.map",
+    "main.css": "/remote-work-budget/static/css/main.aa1ac098.chunk.css",
+    "main.js": "/remote-work-budget/static/js/main.776ce121.chunk.js",
+    "main.js.map": "/remote-work-budget/static/js/main.776ce121.chunk.js.map",
     "runtime-main.js": "/remote-work-budget/static/js/runtime-main.ee8cae69.js",
     "runtime-main.js.map": "/remote-work-budget/static/js/runtime-main.ee8cae69.js.map",
     "static/js/2.ba469af1.chunk.js": "/remote-work-budget/static/js/2.ba469af1.chunk.js",
     "static/js/2.ba469af1.chunk.js.map": "/remote-work-budget/static/js/2.ba469af1.chunk.js.map",
     "index.html": "/remote-work-budget/index.html",
-    "precache-manifest.f2c3bfd99b957de80d69234c1c9e94be.js": "/remote-work-budget/precache-manifest.f2c3bfd99b957de80d69234c1c9e94be.js",
+    "precache-manifest.8d01fe5cd48acf593fcf43645bbe4112.js": "/remote-work-budget/precache-manifest.8d01fe5cd48acf593fcf43645bbe4112.js",
     "service-worker.js": "/remote-work-budget/service-worker.js",
-    "static/css/main.24970d95.chunk.css.map": "/remote-work-budget/static/css/main.24970d95.chunk.css.map",
+    "static/css/main.aa1ac098.chunk.css.map": "/remote-work-budget/static/css/main.aa1ac098.chunk.css.map",
     "static/js/2.ba469af1.chunk.js.LICENSE.txt": "/remote-work-budget/static/js/2.ba469af1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ee8cae69.js",
     "static/js/2.ba469af1.chunk.js",
-    "static/css/main.24970d95.chunk.css",
-    "static/js/main.31d0f509.chunk.js"
+    "static/css/main.aa1ac098.chunk.css",
+    "static/js/main.776ce121.chunk.js"
   ]
 }
