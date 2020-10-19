@@ -1,4 +1,4 @@
-## Table of contents
+# Table of contents
 * [General Info](#remote-work-budget-app)
 * [Motivation](#motivation)
 * [Demo](#demo)
