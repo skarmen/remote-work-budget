@@ -1,6 +1,37 @@
+## Table of contents
+* [General Info](#remote-work-budget-app)
+* [Motivation](#motivation)
+* [Demo](#demo)
+* [Built with](#built-with)
+* [Setup](#setup)
+
+# Remote Work Budget App
+API-powered application built with React, Javascript and using multiple APIs. The web app takes user input and calculates the cost of living in different countries based on that input.
+
+
+# Motivation
+Client request. The client was looking to work remotely from other countries and wanted an app that would assist them in calculating their cost of living in different currencies.
+
+# Demo
+[Remote Work Budget App](https://skarmen.github.io/remote-work-budget/)
+
+# Built with
+  - React
+  - JavaScript
+  - HTML 
+  - CSS
+  - [REST Countries API](https://restcountries.eu/#api-endpoints-all)
+  - [Foreign Exchange Rate API](https://exchangeratesapi.io/)
+
+# Setup
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+ **To Install**
+
+```$ git clone https://github.com/skarmen/remote-work-budget/```
+
+**To Run**
 
 In the project directory, you can run:
 
